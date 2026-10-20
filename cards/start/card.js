@@ -2,7 +2,7 @@
 'use strict';
 var U = Card.util;
 var $ = U.$, el = U.el;
-var STARS = [0.55, 0.85, 9];
+var STARS = [0.52, 0.7, 9];
 var sfx = (function () {
 var AC = window.AudioContext || window.webkitAudioContext, ac = null, pad = null;
 var SCALE = [783.99, 880, 987.77, 1174.66, 1318.51, 1567.98, 1760, 1975.53];
@@ -124,7 +124,7 @@ later(function () {
 root.classList.add('is-invite');
 hold.style.pointerEvents = 'none';
 Card.emit('end', true);
-}, 900);
+}, 2200);
 }
 U.$$('.ib', invite).forEach(function (b) {
 b.addEventListener('click', function () {

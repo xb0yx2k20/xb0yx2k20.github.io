@@ -74,7 +74,7 @@ radial-gradient(70% 50% at 0% 100%, rgba(246, 210, 226, 0.5), rgba(246, 210, 226
 #f7f2f6;
 color: var(--plum); box-shadow: 0 30px 70px -20px rgba(8, 4, 20, 0.85), 0 0 0 1px rgba(255, 255, 255, 0.4) inset;
 opacity: 0; transform: translate3d(0, 50px, 0) scale(0.97);
-transition: opacity 0.9s var(--e-soft), transform 1.1s var(--e-out);
+transition: opacity 1.4s var(--e-soft), transform 1.8s var(--e-out);
 }
 .is-invite .invite__card { opacity: 1; transform: none; pointer-events: auto; }
 .invite__kicker { font-family: var(--lux-caps); font-size: 9.5px; letter-spacing: 0.4em; margin-right: -0.4em; text-transform: uppercase; color: #a2668f; }
@@ -82,18 +82,18 @@ transition: opacity 0.9s var(--e-soft), transform 1.1s var(--e-out);
 display: block; width: 56px; height: 6px; margin: 8px auto 14px; opacity: 0.55;
 background: conic-gradient(var(--plum) 25%, transparent 0 50%, var(--plum) 0 75%, transparent 0) 0 0 / 6px 6px;
 }
-.il { font-family: var(--lux-display); text-wrap: balance; opacity: 0; transform: translate3d(0, 6px, 0); transition: opacity 0.8s var(--e-soft), transform 1s var(--e-out); }
+.il { font-family: var(--lux-display); text-wrap: balance; opacity: 0; transform: translate3d(0, 6px, 0); transition: opacity 1.1s var(--e-soft), transform 1.3s var(--e-out); }
 .il--lead { font-size: clamp(17px, 5vw, 19px); line-height: 1.32; }
 .il--key { margin-top: 12px; font-style: italic; font-size: clamp(26px, 8vw, 31px); line-height: 1.1; color: #8a3f74; }
 .il--tail { margin-top: 6px; font-style: italic; font-size: 15px; line-height: 1.35; color: rgba(74, 52, 96, 0.78); }
 .is-invite .il { opacity: 1; transform: none; }
-.is-invite .il--lead { transition-delay: 0.2s; }
-.is-invite .il--key { transition-delay: 0.6s; }
-.is-invite .il--tail { transition-delay: 1s; }
+.is-invite .il--lead { transition-delay: 0.5s; }
+.is-invite .il--key { transition-delay: 1.2s; }
+.is-invite .il--tail { transition-delay: 1.9s; }
 .invite__dl { display: flex; justify-content: center; gap: 20px; margin-top: 12px; }
 .invite__dl dt { font-family: var(--lux-caps); font-size: 8.5px; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(74, 52, 96, 0.55); }
 .invite__dl dd { margin: 2px 0 0; font-family: var(--lux-display); font-size: 15px; }
-.invite__btns { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; opacity: 0; transition: opacity 0.8s var(--e-soft) 1.4s; }
+.invite__btns { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; opacity: 0; transition: opacity 1s var(--e-soft) 2.6s; }
 .is-invite .invite__btns { opacity: 1; }
 .ib {
 width: 100%; padding: 12px 10px; border-radius: 999px; white-space: nowrap; font-family: var(--lux-caps); font-size: 10.5px; letter-spacing: 0.16em; text-transform: uppercase;
@@ -107,7 +107,7 @@ transition: background 0.5s, color 0.5s, border-color 0.5s, opacity 0.6s, transf
 .invite__reply { font-family: var(--lux-display); font-style: italic; font-size: 16px; line-height: 1.3; max-height: 0; opacity: 0; transition: opacity 1s var(--e-soft), max-height 0.8s var(--e-inout), margin 0.8s; }
 .is-answered .invite__reply { opacity: 1; max-height: 4em; margin-top: 12px; }
 .invite__reply:empty { display: none; }
-.seal-row { margin-top: 12px; opacity: 0; transition: opacity 0.8s var(--e-soft) 2s; }
+.seal-row { margin-top: 12px; opacity: 0; transition: opacity 1s var(--e-soft) 3.2s; }
 .is-invite .seal-row { opacity: 1; pointer-events: auto; }
 .seal-row .lux-seal-link { color: rgba(var(--ink-rgb), 0.8); }
 .gate { --gate-ink: var(--ink); }
