@@ -1,0 +1,36 @@
+{
+  "v": 1,
+  "public": {
+    "title": "Созвездие",
+    "gate": {
+      "style": "monogram",
+      "monogram": "✦",
+      "for": "Для тебя",
+      "slow": "Подержи палец на звёздах",
+      "single": true,
+      "hint": "твой любимый красный фрукт",
+      "errors": [
+        "Не то. Загляни в подсказку 🙂",
+        "Почти. Он красный и с зёрнышками.",
+        "Подумай про зёрнышки 🙂"
+      ],
+      "sound": false
+    },
+    "colors": {
+      "bg": "#1b1530",
+      "ink": "#f4eefb",
+      "accent": "#e8b8d4",
+      "shade": "#120e22",
+      "shutter": "#221a3a"
+    },
+    "music": null,
+    "notify": null,
+    "device": "phone"
+  },
+  "secret": {
+    "iter": 150000,
+    "salt": "VVQbnRi8svwWMiFRCwsOIA==",
+    "iv": "1LylY+LD95HND/em",
+    "data": "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"
+  }
+}
