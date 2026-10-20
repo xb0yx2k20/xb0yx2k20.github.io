@@ -130,7 +130,7 @@ U.$$('.ib', invite).forEach(function (b) {
 b.addEventListener('click', function () {
 if (invite.classList.contains('is-answered') && !inv.telegram) return;
 var a = answers[+b.getAttribute('data-i')] || answers[0];
-Card.notify(pub && pub.notify, 'answer', '✨ Ответ: «' + a.text + '»');
+Card.notify((pub && pub.notify) || secret.notify, 'answer-' + b.getAttribute('data-i'), '✨ Ответ: «' + a.text + '»', 60 * 1000);
 invite.classList.add('is-answered');
 b.classList.add('is-picked');
 $('.invite__reply', invite).innerHTML = U.fmt(a.reply || '');
